@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Inter;
+    src: url(/assets/Inter.var-subset.woff2);
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+    font-family: Inter, Helvetica, Tahoma, sans-serif;
+    color: white;
+    padding: 20px;
+}
+
+div>ul>li {
+  display: inline-block;
+  text-decoration:none;
+  border: 10px solid rgb(61, 61, 61);
+  background-color: rgb(61, 61, 61);
+}
+
+ul#socials>li {
+  text-align: center;
+  font-size: xx-large;
+  display: inline-block;
+  text-decoration:none;
+  border: 10px solid rgb(34, 34, 34);
+}
+
+body>h1>span {
+    color: rgb(215, 111, 226);
+}
+
+h1,p {
+    text-align: center;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(177, 114, 209);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
